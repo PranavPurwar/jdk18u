@@ -85,6 +85,7 @@ module jdk.compiler {
     exports com.sun.tools.javac.tree;
     exports com.sun.tools.javac.util;
     exports com.sun.tools.javac.code;
+    exports com.sun.tools.javac.file;
 
     exports com.sun.tools.doclint to
         jdk.javadoc;
@@ -93,9 +94,6 @@ module jdk.compiler {
     exports com.sun.tools.javac.comp to
         jdk.javadoc,
         jdk.jshell;
-    exports com.sun.tools.javac.file to
-        jdk.jdeps,
-        jdk.javadoc;
     exports com.sun.tools.javac.jvm to
         jdk.javadoc;
     exports com.sun.tools.javac.main to
